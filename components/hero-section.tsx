@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 export function HeroSection() {
   return (
     <section className="flex flex-col items-center gap-6 text-center">
-      <h1 className="text-5xl font-extrabold tracking-tight text-foreground sm:text-6xl">
+      <h1 className="font-heading text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">
         Benjamin
       </h1>
 
