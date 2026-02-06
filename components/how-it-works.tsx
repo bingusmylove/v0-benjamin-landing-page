@@ -1,0 +1,36 @@
+import { FeatureStep } from "@/components/feature-step"
+
+const steps = [
+  {
+    title: "Download the Benjamin app",
+    description: "Free to install",
+  },
+  {
+    title: "Browse & complete tasks",
+    description: "Surveys, offers, and more",
+  },
+  {
+    title: "Cash out your earnings",
+    description: "Withdraw via PayPal or gift cards",
+  },
+]
+
+export function HowItWorks() {
+  return (
+    <section className="flex flex-col gap-6">
+      <h2 className="text-xl font-bold text-primary">
+        {"How Benjamin Works \u2192"}
+      </h2>
+
+      <div className="flex flex-col gap-5">
+        {steps.map((step) => (
+          <FeatureStep
+            key={step.title}
+            title={step.title}
+            description={step.description}
+          />
+        ))}
+      </div>
+    </section>
+  )
+}
