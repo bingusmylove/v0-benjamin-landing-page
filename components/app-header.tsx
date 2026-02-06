@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export function AppHeader() {
   return (
-    <header className="sticky top-0 z-50 flex items-center justify-between rounded-b-2xl bg-foreground px-4 py-3 shadow-lg sm:rounded-2xl">
+    <header className="sticky top-0 z-50 flex items-center justify-between bg-card px-4 py-3 shadow-sm sm:rounded-t-2xl">
       <div className="flex items-center gap-3">
         <div
           className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary shadow-sm"
@@ -12,7 +12,7 @@ export function AppHeader() {
             B
           </span>
         </div>
-        <span className="text-base font-bold tracking-tight text-card">
+        <span className="text-base font-bold tracking-tight text-foreground">
           Benjamin
         </span>
       </div>
@@ -20,7 +20,7 @@ export function AppHeader() {
       <Button
         asChild
         size="sm"
-        className="rounded-full bg-card/15 px-5 text-sm font-semibold text-card backdrop-blur-sm transition-colors hover:bg-card/25"
+        className="rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
       >
         <a href="#download">Get App</a>
       </Button>
