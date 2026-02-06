@@ -17,8 +17,8 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section className="flex flex-col gap-6">
-      <h2 className="text-xl font-bold text-primary">
+    <section className="flex flex-col gap-6 rounded-2xl bg-[#29596D] p-6">
+      <h2 className="text-xl font-bold text-white">
         {"How Benjamin Works \u2192"}
       </h2>
 

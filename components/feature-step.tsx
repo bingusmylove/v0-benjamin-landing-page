@@ -12,8 +12,8 @@ export function FeatureStep({ title, description }: FeatureStepProps) {
         <Check className="h-4 w-4 text-primary-foreground" strokeWidth={3} />
       </div>
       <div>
-        <p className="text-base font-bold text-foreground">{title}</p>
-        <p className="mt-0.5 text-sm italic text-muted-foreground">
+        <p className="text-base font-bold text-white">{title}</p>
+        <p className="mt-0.5 text-sm italic text-white/70">
           {description}
         </p>
       </div>
