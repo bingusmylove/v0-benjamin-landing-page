@@ -7,11 +7,11 @@ const steps = [
   },
   {
     title: "Browse & complete tasks",
-    description: "Surveys, offers, and more",
+    description: "Easy tasks anyone can do",
   },
   {
     title: "Cash out your earnings",
-    description: "Withdraw via PayPal or gift cards",
+    description: "Get paid for each task. The more tasks you complete, the more you can earn!",
   },
 ]
 
