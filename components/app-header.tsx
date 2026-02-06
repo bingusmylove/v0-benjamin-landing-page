@@ -13,7 +13,7 @@ export function AppHeader() {
           </span>
         </div>
         <span className="text-base font-bold tracking-tight text-foreground">
-          Benjamin
+          {"Benjamin."}
         </span>
       </div>
 
