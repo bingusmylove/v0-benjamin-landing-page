@@ -1,8 +1,16 @@
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
     <section className="flex flex-col items-center gap-6 text-center">
+      <Image
+        src="/images/benjamin-logo.png"
+        alt="Benjamin logo"
+        width={80}
+        height={80}
+        className="h-20 w-20 rounded-2xl"
+      />
       <h1 className="font-heading text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">
         {"Benjamin."}
       </h1>
