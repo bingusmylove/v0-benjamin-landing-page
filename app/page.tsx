@@ -20,7 +20,7 @@ export default function Page() {
       </div>
 
       <footer className="mt-10 px-6 pb-8 text-center text-xs text-muted-foreground">
-        <p>{"© 2026 Benjamin. All rights reserved."}</p>
+        <p>{"© 2026 Scrambly. All rights reserved."}</p>
       </footer>
     </main>
   )

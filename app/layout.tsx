@@ -7,9 +7,9 @@ import './globals.css'
 const _inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Benjamin - Complete Simple Tasks & Start Earning',
+  title: 'Scrambly - Complete Simple Tasks & Start Earning',
   description:
-    'Download the Benjamin app to complete simple tasks and start earning real money. Free to install, easy to use.',
+    'Download the Scrambly app to complete simple tasks and start earning real money. Free to install, easy to use.',
 }
 
 export const viewport: Viewport = {

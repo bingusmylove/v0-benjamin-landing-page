@@ -7,13 +7,13 @@ export function AppHeader() {
       <div className="flex items-center gap-3">
         <Image
           src="/images/benjamin-logo.png"
-          alt="Benjamin logo"
+          alt="Scrambly logo"
           width={36}
           height={36}
           className="h-9 w-9 rounded-xl"
         />
         <span className="text-base font-bold tracking-tight text-foreground">
-          {"Benjamin."}
+          {"Scrambly."}
         </span>
       </div>
 

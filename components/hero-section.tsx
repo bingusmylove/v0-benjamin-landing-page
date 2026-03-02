@@ -6,13 +6,13 @@ export function HeroSection() {
     <section className="flex flex-col items-center gap-6 text-center">
       <Image
         src="/images/benjamin-logo.png"
-        alt="Benjamin logo"
+        alt="Scrambly logo"
         width={80}
         height={80}
         className="h-20 w-20 rounded-2xl"
       />
       <h1 className="font-heading text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">
-        {"Benjamin."}
+        {"Scrambly."}
       </h1>
 
       <div className="h-px w-full bg-border" role="separator" />
@@ -26,7 +26,7 @@ export function HeroSection() {
         size="lg"
         className="w-full rounded-lg bg-primary py-6 text-base font-bold uppercase tracking-widest text-primary-foreground shadow-md transition-transform hover:bg-primary/90 active:scale-[0.98]"
       >
-        <a href="#download">Download Benjamin</a>
+        <a href="#download">Download Scrambly</a>
       </Button>
 
       <div className="h-px w-full bg-border" role="separator" />
