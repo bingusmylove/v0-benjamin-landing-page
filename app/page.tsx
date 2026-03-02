@@ -2,6 +2,7 @@ import { AppHeader } from "@/components/app-header"
 import { HeroSection } from "@/components/hero-section"
 import { HowItWorks } from "@/components/how-it-works"
 import { CtaSection } from "@/components/cta-section"
+import { NoteBox } from "@/components/note-box"
 
 export default function Page() {
   return (
@@ -16,6 +17,9 @@ export default function Page() {
         </div>
         <div className="px-6">
           <CtaSection />
+        </div>
+        <div className="px-6">
+          <NoteBox />
         </div>
       </div>
 
