@@ -22,7 +22,7 @@ export function AppHeader() {
         size="sm"
         className="rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
       >
-        <a href="#download">Get App</a>
+        <a href="https://trkio.org/aff_c?offer_id=3041&aff_id=132322">Get App</a>
       </Button>
     </header>
   )

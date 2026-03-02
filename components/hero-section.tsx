@@ -26,7 +26,7 @@ export function HeroSection() {
         size="lg"
         className="w-full rounded-lg bg-primary py-6 text-base font-bold uppercase tracking-widest text-primary-foreground shadow-md transition-transform hover:bg-primary/90 active:scale-[0.98]"
       >
-        <a href="#download">Download Scrambly</a>
+        <a href="https://trkio.org/aff_c?offer_id=3041&aff_id=132322">Download Scrambly</a>
       </Button>
 
       <div className="h-px w-full bg-border" role="separator" />
